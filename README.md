@@ -1,51 +1,45 @@
-Shopping Cart
-Description
+# Shopping Cart
+
+## Description
 A simple and functional shopping cart web application built with React, featuring a dynamic product list, search functionality, a shopping cart sidebar, and an order summary checkout page.
 
-How to Run the Project
-Prerequisites:
+## How to Run the Project
+
+### Prerequisites
 Ensure you have Node.js and npm installed on your system.
-Steps:
-Clone this repository:
-bash
-Copy code
-git clone <repository-url>
-Navigate to the project directory:
-bash
-Copy code
-cd shopping-cart
-Install the dependencies:
-bash
-Copy code
-npm install
-Start the development server:
-bash
-Copy code
-npm run dev
-Open your browser and navigate to:
-arduino
-Copy code
-http://localhost:3000
-Libraries Used
-scss
-Copy code
+
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Jvon25/Shopping-cart.git
+
+2.Navigate to the project directory:
+  cd shopping-cart
+
+3.Install the dependencies:
+  npm install
+
+4.Start the development server:
+   npm run dev
+
+**Library Used:**
 Shopping Cart
 ├── React
-│ ├── react-router-dom
-│ └── react-icons
+│   ├── react-router-dom
+│   └── react-icons
 ├── Vite (Development Tool)
 ├── CSS Modules
 └── Node Package Manager (npm)
-Project Features
-Dynamic Product List: Displays a list of products fetched from an API with images, prices, and titles.
-Search Bar: Search products by their names in real-time.
-Add to Cart: Adds products to the shopping cart with quantity management.
-Shopping Cart Sidebar: Displays selected products with quantity controls, remove options, and total calculation.
-Checkout Page: Displays an order summary with a cancel and pay functionality.
-Responsive Design: Adapted for both desktop and mobile views.
-Image of the Shopping Cart
 
-Future Improvements
-Add user authentication for a personalized shopping experience.
-Integrate a real payment gateway.
-Store shopping cart data in a database for persistent sessions.
+
+**Image of the Shopping Cart
+**
+![Screenshot 2024-11-14 221101](https://github.com/user-attachments/assets/0e765c1d-972f-46c0-ab02-bde44bd5e190)
+
+![Screenshot 2024-11-14 221134](https://github.com/user-attachments/assets/f24ff0a9-8b12-415b-b051-13aec4e62eac)
+
+![Screenshot 2024-11-14 221144](https://github.com/user-attachments/assets/2b2476e8-4336-41ad-997d-d2e997743d18)
+
+![Screenshot 2024-11-14 221151](https://github.com/user-attachments/assets/948b6433-e695-4d2e-b3c3-ba4ea9266cf8)
+
+
